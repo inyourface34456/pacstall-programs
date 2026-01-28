@@ -30,6 +30,7 @@ audiorelay-bin
 audiorelay-deb
 awesome-git
 aws-cli-v2-bin
+awww-git
 balena-etcher-deb
 bat
 bat-deb
@@ -59,6 +60,7 @@ btop-bin
 btrfs-assistant
 btrfs-du-bin
 cachyos-ananicy-rules-git
+canon-pixma-mg3000-complete-deb
 cantata
 caprine-deb
 capsfix-git
@@ -171,6 +173,8 @@ firefox-deb
 firefox-developer-edition-bin
 firefox-nightly-bin
 firefox-nightly-deb
+firmware-brcm80211-deb
+firmware-realtek-deb
 fishui-git
 floorp-bin
 flyctl-bin
@@ -294,6 +298,7 @@ joplin-desktop-app
 jq-bin
 jsonnet-bundler-bin
 kakoune
+kakoune-ansi-git
 kakoune-auto-pairs-git
 kakoune-kakboard-git
 kakoune-lsp
@@ -330,6 +335,7 @@ lenovolegionlinux-git
 lens
 lf-bin
 libaquamarine-bin
+libation-deb
 libcamera-git
 libcs50-git
 libcutefish-git
@@ -596,6 +602,7 @@ pipes.sh-bin
 pipewire
 planner-git
 plasma-compact-shutdown-git
+plasma-kara
 plexmediaserver-deb
 polybar
 pomatez-deb
@@ -672,10 +679,10 @@ rider-bin
 rio-wayland-deb
 rio-x11-deb
 rnnoise
-rofi:pkgbase
-rofi:rofi-dev
-rofi:rofi
+rofi
 rofi-emoji
+rofi-wayland
+rofi-x11
 rojo-bin
 rosary-deb
 rose-pine-cursor
@@ -691,6 +698,7 @@ rustrover-bin
 sayonara
 sayonara-git
 sbt-deb
+scangearmp2-deb
 schildichat-deb
 scrcpy
 sed
@@ -845,7 +853,9 @@ windscribe-beta-gui-deb
 wine-staging
 wine-staging-git
 winetricks-git
+wlrobs
 wsysmon-bin
+xapp-symbolic-icons-deb
 xapps-common-deb
 xcb-util-errors
 xclicker-deb
@@ -858,6 +868,7 @@ xfce4-dynamic-workspaces-rs-bin
 xfce4-hotcorner-plugin-git
 xfce4-settings-pine-git
 xgifwallpaper-git
+xivlauncher-bin
 xmind-vana-deb
 xonotic
 xpadneo-dkms

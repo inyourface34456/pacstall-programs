@@ -1,0 +1,11 @@
+pkgname="libation-deb"
+pkgver="13.1.3"
+gives="libation"
+breaks=("${gives}" "${gives}-git" "${gives}-bin" "${gives}-app")
+pkgdesc="Free and open source app to manage your Audible books"
+maintainer="Tobias Heinlein <nionxtrix@mailbox.org>"
+source_amd64=("https://github.com/rmcrackan/Libation/releases/download/v${pkgver}/Libation.${pkgver}-linux-chardonnay-amd64.deb")
+source_arm64=("https://github.com/rmcrackan/Libation/releases/download/v${pkgver}/Libation.${pkgver}-linux-chardonnay-arm64.deb")
+sha256sum_amd64="93166fc05952f23f9424b4c222a5d92ccd5ba9797d323d8685ebb85e28bc3a3f"
+sha256sum_arm64="7f83fc2b09bcfd432fcb0074dac937319b2c1d4185ac638614f73b337fef1c2c"
+arch=('arm64' 'amd64')
