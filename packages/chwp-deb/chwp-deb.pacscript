@@ -1,5 +1,5 @@
 pkgname="chwp-deb"
-pkgver="1.239.38"
+pkgver="1.239.71"
 gives="chwp"
 breaks=("${gives}")
 replaces=("${gives}")
@@ -7,5 +7,5 @@ repology=("project: ${gives}")
 source=("https://github.com/RouHim/chwp/releases/download/${pkgver}/chwp-x86-64.deb")
 pkgdesc="Changes the wallpaper from the command line"
 maintainer=("Oren Klopfer <oren@taumoda.com>")
-sha256sums=("96eae2d7f48a3a2e5b8cd37a51027cba2f2da71f1929cb76ac82c2a35d9abead")
+sha256sums=("517734bd55883d1e39eb26b18f3b8b52e6914f002ef250b236b9c600da6ab6d0")
 arch=('amd64')

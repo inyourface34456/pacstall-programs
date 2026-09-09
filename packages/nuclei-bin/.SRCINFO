@@ -1,6 +1,6 @@
 pkgbase = nuclei-bin
 	gives = nuclei
-	pkgver = 3.4.5
+	pkgver = 3.9.0
 	pkgdesc = Fast and customisable vulnerability scanner based on simple YAML based DSL
 	arch = amd64
 	breaks = nuclei
@@ -8,7 +8,7 @@ pkgbase = nuclei-bin
 	breaks = nuclei-git
 	maintainer = Oren Klopfer <oren@taumoda.com>
 	repology = project: nuclei
-	source = @nuclei-bin~3.4.5::https://github.com/projectdiscovery/nuclei/releases/download/v3.4.5/nuclei_3.4.5_linux_amd64.zip
-	sha256sums = d8ad9aa75df5aa0b1a74618a670a685e0946badca9f04780bf17fbda2ec5e451
+	source = @nuclei-bin~3.9.0::https://github.com/projectdiscovery/nuclei/releases/download/v3.9.0/nuclei_3.9.0_linux_amd64.zip
+	sha256sums = 05357e07886d9670e9c54325ec8afd362d03610c87e2aa1455886ad3f7b58519
 
 pkgname = nuclei-bin

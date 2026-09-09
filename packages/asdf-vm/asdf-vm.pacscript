@@ -1,5 +1,5 @@
 pkgname=asdf-vm
-pkgver=0.18.0
+pkgver=0.20.0
 pkgdesc='Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more'
 repology=("project: ${pkgname}")
 arch=('i386' 'amd64' 'arm64')
@@ -19,9 +19,9 @@ optdepends=(
 source_i386="${pkgname}-${pkgver}-i386.tar.gz::https://github.com/asdf-vm/asdf/releases/download/v${pkgver}/asdf-v${pkgver}-linux-386.tar.gz"
 source_amd64="${pkgname}-${pkgver}-amd64.tar.gz::https://github.com/asdf-vm/asdf/releases/download/v${pkgver}/asdf-v${pkgver}-linux-amd64.tar.gz"
 source_arm64="${pkgname}-${pkgver}-arm64.tar.gz::https://github.com/asdf-vm/asdf/releases/download/v${pkgver}/asdf-v${pkgver}-linux-arm64.tar.gz"
-sha256sums_i386=('ebb2530d98806a0a4746f2b1f57910a962133e55c2c60d81957887166da947f7')
-sha256sums_amd64=('4d3007070166cb0a652af26c3f0462b021e04cb26c4ab13894d13689da89f5b8')
-sha256sums_arm64=('1749b89039e4af51b549aa0919812fd68722c1a26a90eaf84db0b46a39f557a9')
+sha256sums_i386=('17b32c669b0ea72d6c941cb00b8a337e55b62d2e5bee0644c2df0f5f2997ca56')
+sha256sums_amd64=('9c25e1af7cc4c9d59ff3736eba14fd000480c32929258f80d8c5a8b290ebee14')
+sha256sums_arm64=('bbc1889886a9826ce3f57f56e4bae575767a4af3d35d649d62116ee14334e59a')
 
 package() {
   install -Dm755 "asdf" "${pkgdir}/usr/bin/asdf"

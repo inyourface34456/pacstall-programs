@@ -1,16 +1,17 @@
 pkgname="firefox-bin"
 gives="firefox"
-pkgver="142.0.1"
+pkgver="152.0.3"
 repology=("project: ${gives}")
 replaces=("${gives}-deb" "${gives}-arm64-deb")
-source=("https://ftp.mozilla.org/pub/firefox/releases/${pkgver}/linux-${AARCH}/en-US/firefox-${pkgver}.tar.xz")
+source_amd64=("https://ftp.mozilla.org/pub/firefox/releases/${pkgver}/linux-x86_64/en-US/firefox-${pkgver}.tar.xz")
+source_arm64=("https://ftp.mozilla.org/pub/firefox/releases/${pkgver}/linux-aarch64/en-US/firefox-${pkgver}.tar.xz")
 url='https://www.mozilla.org/en-US/firefox'
 optdepends=("speech-dispatcher: Common interface to speech synthesizers")
 pkgdesc="Free and open-source web browser developed by the Mozilla Foundation"
 maintainer=("Oren Klopfer <oren@taumoda.com>")
 arch=('amd64' 'arm64')
-sha256sums_amd64=("8f47a714610a624ad536a652a70242aa894a37f65565fd3103d4366869743b91")
-sha256sums_arm64=("ee3c8aeb57740c4a20b97136876cd40e4b60870ab0068e78ab9de22f2a01399a")
+sha256sums_amd64=("8bdb7a9138f40a1bc9191e9803d3cb5e1c3086e815821c7f42bcda7b8b98144b")
+sha256sums_arm64=("9bf6bb30bc95f208f87bcc9e84f9ebe68241d190aa9c77e57faf736037a59d37")
 
 package() {
   cd "${srcdir}"

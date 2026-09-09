@@ -1,7 +1,7 @@
 pkgname="modprobed-db"
 gives="modprobed-db"
 arch=("any")
-pkgver="2.47"
+pkgver="2.50"
 pkgdesc="Keeps track of EVERY kernel module ever used - useful for make localmodconfig"
 license=("MIT")
 depends=("kmod")
@@ -10,7 +10,7 @@ replaces=("modprobed_db" "${pkgname}-git")
 breaks=("modprobed_db")
 url='https://wiki.archlinux.org/index.php/Modprobed-db'
 source=("@${pkgname}~${pkgver}::https://github.com/graysky2/${gives}/archive/v${pkgver}.tar.gz")
-sha256sums=('fef19759fda476134bec718d997bcb2a0c43d0a19b72f8f9e38bba22c746531d')
+sha256sums=('8cd9b490896a5e1e3eddf9c5a7dd771de8627965ffad0ca6426d25c886d904ee')
 maintainer=("xdavius <xdavius@github.com>")
 
 build() {

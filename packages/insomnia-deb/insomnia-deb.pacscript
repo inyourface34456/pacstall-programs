@@ -1,9 +1,9 @@
 pkgname="insomnia-deb"
 gives="insomnia"
-pkgver="11.2.0"
+pkgver="13.0.2"
 arch=("amd64")
 source=("https://github.com/Kong/insomnia/releases/download/core%40${pkgver}/Insomnia.Core-${pkgver}.deb")
-sha256sums=("d5207e794f276894f84ae5f0eba5cbbf77d196df096dce895d5d4d61635a615a")
+sha256sums=("c0805c435f115c0820c4c0349384a4483752b46a9b4648e3068dc993c063a570")
 url='https://github.com/Kong/insomnia/'
 pkgdesc="The open-source, cross-platform API client for GraphQL, REST, WebSockets and gRPC"
 maintainer=("Diegiwg <diegiwg@gmail.com>")

@@ -1,9 +1,9 @@
 pkgname="ffmpeg"
-pkgver="8.0"
+pkgver="9.0.1"
 arch=("amd64")
 url='https://ffmpeg.org'
 repology=("project: ${pkgname}")
-maintainer=("Sarim <sarimw@proton.me>")
+maintainer=("Sarim <sarimw@proton.me>" "pejuton <pejuton@proton.me>")
 breaks=("ffmpeg4.4")
 conflicts=("ffmpeg4.4")
 pkgdesc="Complete, cross-platform solution to record, convert and stream audio and video"
@@ -31,10 +31,8 @@ makedepends=("autoconf"
   "libx264-dev"
   "libnuma-dev"
   "libx265-dev"
-  "libx265-dev"
   "libopus-dev"
   "libvdpau-dev"
-  "libdav1d-dev"
   "libdav1d-dev"
   "libvorbis-dev"
   "libmp3lame-dev"
@@ -46,7 +44,7 @@ makedepends=("autoconf"
   "libunistring-dev"
   "libxcb-xfixes0-dev")
 source=("https://github.com/FFmpeg/FFmpeg/archive/refs/tags/n${pkgver}.tar.gz")
-sha256sums=("dd4030dbfdc34d9ff255a116bdd1caade42500ac2981efa27f8b151cc54c7b9e")
+sha256sums=("195d54bebe1a27f84d77f4b989d193466f305b355da92292766a69f16880b18a")
 
 prepare() {
   cd "FFmpeg-n${pkgver}"

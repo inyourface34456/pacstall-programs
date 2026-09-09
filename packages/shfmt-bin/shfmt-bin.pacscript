@@ -1,6 +1,6 @@
 pkgname="shfmt-bin"
 gives="shfmt"
-pkgver="3.11.0"
+pkgver="3.13.1"
 pkgdesc="Format shell programs"
 url='https://github.com/mvdan/sh'
 breaks=("${gives}" "${gives}-git" "${gives}-bin" "${gives}-deb" "${gives}-app")
@@ -11,10 +11,10 @@ source_amd64=("${url}/releases/download/v${pkgver}/shfmt_v${pkgver}_linux_amd64"
 source_arm64=("${url}/releases/download/v${pkgver}/shfmt_v${pkgver}_linux_arm64")
 source_armhf=("${url}/releases/download/v${pkgver}/shfmt_v${pkgver}_linux_arm")
 source_i386=("${url}/releases/download/v${pkgver}/shfmt_v${pkgver}_linux_386")
-sha256sums_amd64=("1904ec6bac715c1d05cd7f6612eec8f67a625c3749cb327e5bfb4127d09035ff")
-sha256sums_arm64=("b3976121710fd4b12bf641b0a7fb2686da598fb0da9f148c641b61b54cfa3407")
-sha256sums_armhf=("00a243112f22a94594a82cb9399b086cf51441e3d9fef98b1203d633863506ed")
-sha256sums_i386=("4bd973b2146dbb49a1aff9c16a782b0adeec974728ac063ac793f884f6a951f7")
+sha256sums_amd64=("fb096c5d1ac6beabbdbaa2874d025badb03ee07929f0c9ff67563ce8c75398b1")
+sha256sums_arm64=("32d92acaa5cd8abb29fc49dac123dc412442d5713967819d8af2c29f1b3857c7")
+sha256sums_armhf=("f6c23b95971bcc5ebf86411bccefb79f1e99f8efe7c722d980a3f244838b1398")
+sha256sums_i386=("5f9a2c46249dab66d7767df676083ea6a3313831ca9f4bc29e4c21af87bd4f5e")
 
 package() {
   install -Dm755 "shfmt_v${pkgver}_linux_"* "${pkgdir}/usr/bin/${gives}"

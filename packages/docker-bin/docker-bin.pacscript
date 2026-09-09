@@ -4,13 +4,13 @@ provides=("${gives}-ce" "${gives}-ce-cli" "${gives}.io" "containerd.io" "contain
 replaces=("${gives}-desktop" "${provides[@]}")
 conflicts=("${replaces[@]}")
 repology=("project: ${gives}")
-pkgver="28.3.2"
+pkgver="29.6.0"
 depends=("procps" "git" "iptables" "fuse-overlayfs")
 pkgdesc="Docker Engine Static Binaries"
 maintainer=("Oren Klopfer <oren@taumoda.com>")
 arch=('arm64' 'amd64')
-sha256sums_arm64=("61c65bddb74ea73ba9644769ae673b9cb05b8ae66902393d6123d05a5b07ee01")
-sha256sums_amd64=("9d274a3f330764ebd9cc82fe29e5dd5d0569bc34f9f53e3ac8905444cd88b413")
+sha256sums_arm64=("17aede86d504841427b92e52d8ebb50d3fa67e5fd6d6a90a4224dfc81cd79ebc")
+sha256sums_amd64=("4d2f6782406b56eb43a519ad5078a6a79abe4d663328acb69136aceff5e05224")
 source_amd64=("https://download.docker.com/linux/static/stable/x86_64/${gives}-${pkgver}.tgz")
 source_arm64=("https://download.docker.com/linux/static/stable/aarch64/${gives}-${pkgver}.tgz")
 

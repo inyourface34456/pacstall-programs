@@ -1,11 +1,11 @@
 pkgname="rambox-app"
 gives="rambox"
 arch=("amd64")
-pkgver="2.4.1"
+pkgver="2.6.3"
 pkgdesc="Workspace simplizer"
 maintainer=("James Ed Randson <jimedrand@disroot.org>")
 source=("https://github.com/ramboxapp/download/releases/download/v${pkgver}/Rambox-${pkgver}-linux-x64.AppImage")
-sha256sums=("9dd16fe6b3535b2aab1860bcb7524d47e6d00b426c8ade08f69e2783b87f81c5")
+sha256sums=("6152d3fbaa363f2efde8b06037b6603228a06e30451b24cd686fdb4b02580179")
 
 package() {
   install -Dm755 "Rambox-${pkgver}-linux-x64.AppImage" "${pkgdir}/usr/bin/rambox"

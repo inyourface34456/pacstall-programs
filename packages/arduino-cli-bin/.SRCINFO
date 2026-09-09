@@ -1,6 +1,6 @@
 pkgbase = arduino-cli-bin
 	gives = arduino-cli
-	pkgver = 1.2.2
+	pkgver = 1.5.1
 	pkgdesc = An all-in-one solution that provides Boards/Library Managers, sketch builder, board detection, uploader, and many other tools needed to use any Arduino compatible board and platform from command line or machine interfaces
 	arch = amd64
 	breaks = arduino-cli
@@ -9,7 +9,7 @@ pkgbase = arduino-cli-bin
 	breaks = arduino-cli-git
 	maintainer = DismissedGuy <me@mikealmel.ooo>
 	repology = project: arduino-cli
-	source = @arduino-cli-bin~1.2.2::https://github.com/arduino/arduino-cli/releases/download/v1.2.2/arduino-cli_1.2.2_Linux_64bit.tar.gz
-	sha256sums = a5ad085d1b02fd4010df18b1bbf20453276efe6c6e2ac323baa0cac4e96a85b4
+	source = @arduino-cli-bin~1.5.1::https://github.com/arduino/arduino-cli/releases/download/v1.5.1/arduino-cli_1.5.1_Linux_64bit.tar.gz
+	sha256sums = 28a8e119c498a25607821c36cb2dc49e8463941b261a0d99091baa7bc692dd2b
 
 pkgname = arduino-cli-bin

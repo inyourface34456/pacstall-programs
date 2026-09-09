@@ -1,15 +1,15 @@
 pkgname="docker-buildx-plugin-bin"
 gives="docker-buildx-plugin"
 replaces=("${gives}")
-pkgver="0.25.0"
+pkgver="0.35.0"
 pkgdesc="Docker Buildx cli plugin"
 url='https://github.com/docker/buildx'
 source=("https://github.com/docker/buildx/releases/download/v${pkgver}/buildx-v${pkgver}.linux-${CARCH}")
 arch=('amd64' 'arm64')
 repology=("project: docker-buildx")
 maintainer=("Oren Klopfer <oren@taumoda.com>")
-sha256sums_amd64=("4104d79a791a8744c0b43fd5bd0a6172dff29040c5229946a1cdb2d27b0b5bfa")
-sha256sums_arm64=("f07063844bb750172c1f25cef61b07a8314d24bedffc015517b3ec4016b16de8")
+sha256sums_amd64=("d41ece72044243b4f58b343441ae37446d9c29a7d6b5e11c61847bbcf8f7dfda")
+sha256sums_arm64=("c4248d6cbc4a619a7e0b4609c11e509ad4ac0b475e1c64817c0ac20c5d90c766")
 
 package() {
   cd "${srcdir}"
